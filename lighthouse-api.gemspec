@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{lighthouse-api}
-  s.version = "2.0.2"
+  s.version = "2.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rick Olson", "Justin Palmer"]
@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.description = %q{Ruby API wrapper for Lighthouse - http://lighthouseapp.com}
   s.test_files = []
 
-  s.add_dependency(%q<activesupport>, [">= 3.0.0"])
-  s.add_dependency(%q<activeresource>, [">= 3.0.0"])
+  s.add_dependency(%q<activesupport>)
+  s.add_dependency(%q<activeresource>)
 end
