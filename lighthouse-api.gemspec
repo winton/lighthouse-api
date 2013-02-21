@@ -16,7 +16,4 @@ Gem::Specification.new do |s|
   s.summary = %q{Ruby API wrapper for Lighthouse - http://lighthouseapp.com}
   s.description = %q{Ruby API wrapper for Lighthouse - http://lighthouseapp.com}
   s.test_files = []
-
-  s.add_dependency(%q<activesupport>, [">= 4.0.0.beta"])
-  s.add_dependency(%q<activeresource>, [">= 4.0.0.beta"])
 end
